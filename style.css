@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  body {
+    position: relative;
+    font-family: Arial;
+    padding: 20px;
+    min-height: 100vh;
+    overflow: auto;
+    background-image: url("background.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+header{
+    padding : 50px;
+    text-align: center;
+    background-color: #9e9a9a;
+}
+
+article{
+    padding : 10px;
+    background-color: #9e9a9a;
+}
+
+nav ul {
+  list-style-type: none; /* Supprime les puces de la liste */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime le padding par défaut */
+  display: flex; /* Utilise Flexbox pour aligner les éléments en ligne */
+  justify-content: space-between; /* Espace les éléments uniformément */
+ }
+ 
+ nav ul li {
+  flex: 1; /* Chaque élément occupe une fraction égale de l'espace disponible */
+  text-align: center; /* Centre le texte horizontalement */
+  border: 1px solid #9e9a9a; /* Ajoute une bordure autour de chaque élément */
+  padding: 10px; /* Ajoute un padding pour améliorer l'apparence */
+
+ }
+ 
+ nav ul li a {
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: #ffffff; /* Couleur du texte des liens */
+ }
+
+ #img{
+  margin: auto;
+  text-align: center;
+ }
