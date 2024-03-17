@@ -28,24 +28,24 @@ article{
 }
 
 nav ul {
-  list-style-type: none; /* Supprime les puces de la liste */
-  margin: 0; /* Supprime les marges par défaut */
-  padding: 0; /* Supprime le padding par défaut */
-  display: flex; /* Utilise Flexbox pour aligner les éléments en ligne */
-  justify-content: space-between; /* Espace les éléments uniformément */
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+  justify-content: 
  }
  
  nav ul li {
-  flex: 1; /* Chaque élément occupe une fraction égale de l'espace disponible */
-  text-align: center; /* Centre le texte horizontalement */
-  border: 1px solid #9e9a9a; /* Ajoute une bordure autour de chaque élément */
-  padding: 10px; /* Ajoute un padding pour améliorer l'apparence */
+  flex: 1; 
+  text-align: center; 
+  border: 1px solid #9e9a9a; 
+  padding: 10px; 
 
  }
  
  nav ul li a {
-  text-decoration: none; /* Supprime le soulignement des liens */
-  color: #ffffff; /* Couleur du texte des liens */
+  text-decoration: none; 
+  color: #ffffff; 
  }
 
  #img{
