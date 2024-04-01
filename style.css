@@ -19,12 +19,12 @@
 header{
     padding : 50px;
     text-align: center;
-    background-color: #9e9a9a;
+    background-color: #c4bfbf;
 }
 
 article{
     padding : 10px;
-    background-color: #9e9a9a;
+    background-color: #c4bfbf;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul {
  nav ul li {
   flex: 1; 
   text-align: center; 
-  border: 1px solid #9e9a9a; 
+  border: 1px solid #c4bfbf; 
   padding: 10px; 
 
  }
@@ -51,4 +51,9 @@ nav ul {
  #img{
   margin: auto;
   text-align: center;
+ }
+
+ p{
+  padding-left: 50px;
+  padding-right: 50px;
  }
